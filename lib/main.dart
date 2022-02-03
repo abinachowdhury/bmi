@@ -1,5 +1,4 @@
 import 'package:bmi/bmiresult.dart';
-import 'package:bmi/test.dart';
 import 'package:flutter/material.dart';
 
 

@@ -40,8 +40,14 @@ class BmiResultScreen extends StatelessWidget {
                           color: Colors.white,
                           boxShadow: [
                             BoxShadow(
-                              color: Colors.grey.shade600,
+                              color: Colors.grey.shade400,
                               offset: Offset(4, 4),
+                              blurRadius:15 ,
+                              spreadRadius: 1,
+                            ),
+                            BoxShadow(
+                              color: Colors.white,
+                              offset: Offset(-4, -4),
                               blurRadius:15 ,
                               spreadRadius: 1,
                             ),
@@ -62,11 +68,17 @@ class BmiResultScreen extends StatelessWidget {
                         color: Colors.white,
                         boxShadow: [
                           BoxShadow(
-                            //color: Colors.grey.shade600,
-                            offset: Offset(-1, -1),
+                            color: Colors.grey.shade400,
+                            offset: Offset(4,4),
                             blurRadius:15 ,
                             spreadRadius: 1,
                           ),
+                           BoxShadow(
+                              color: Colors.white,
+                              offset: Offset(-4, -4),
+                              blurRadius:15 ,
+                              spreadRadius: 1,
+                            ),
                           
                         ]
                       ),
@@ -76,7 +88,7 @@ class BmiResultScreen extends StatelessWidget {
                     ),
                     
                   ),
-                  SizedBox(height: 80,),
+                 // SizedBox(height: 20,),
                    Center(
                     child: 
                       Expanded(
@@ -127,7 +139,7 @@ class BmiResultScreen extends StatelessWidget {
                       ),
                    ),
                               
-                      SizedBox(height: 50,),
+                      SizedBox(height: 20,),
                       Container(
                     child: Text("You have Normal body weight"),
                   ),
