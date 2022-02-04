@@ -30,6 +30,9 @@ dependencies:
   flutter:
     sdk: flutter
   syncfusion_flutter_gauges: ^19.1.65
+  syncfusion_flutter_sliders: ^19.4.48
+ # sliding_card: ^0.1.2
+
 
 
   # The following adds the Cupertino Icons font to your application.
